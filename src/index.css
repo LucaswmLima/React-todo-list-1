@@ -46,6 +46,13 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #515151;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #515151;
 }
 
 .btn-secondary{
