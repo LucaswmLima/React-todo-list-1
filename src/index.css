@@ -60,6 +60,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: var(--color-btn-primary);
+  color: white;
   cursor: pointer;
   min-width: 8rem;
 }

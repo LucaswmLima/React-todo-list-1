@@ -24,14 +24,6 @@
 }
 
 .done {
-    background-color: rgba(255, 255, 255, 0.5) ;
+    opacity: 0.5;
 
-}
-
-.done h2{
-    color: rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    color: rgba(0, 0, 0, 0.7);
 }
