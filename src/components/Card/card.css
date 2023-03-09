@@ -1,7 +1,6 @@
 .cards{
     background-color: var(--color-cards);
     border-radius: 10px;
-    padding: 2rem;
     margin-bottom: 1rem;
 }
 

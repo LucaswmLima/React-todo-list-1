@@ -20,7 +20,7 @@ function Card({ todo, completeTodo, deleteTodo }: CardProps) {
     return (
         <div className='cards'>
             <div className={`card ${todo.completed ? 'done' : ''}`}>
-                <h2>{todo.title}</h2>
+                <div className='title-container'><h2>{todo.title}</h2></div>                
                 <div className="card-buttons">
                     <button onClick={handleCompleteTodo}>{todo.completed ? 'Retomar' : 'Completar'}</button>
                     <button onClick={handleDeleteTodo} className='btn-secondary'>Deletar</button>
