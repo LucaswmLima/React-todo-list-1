@@ -1,0 +1,37 @@
+.cards{
+    background-color: var(--color-cards);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: var(--color-card);
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.done {
+    background-color: rgba(255, 255, 255, 0.5) ;
+
+}
+
+.done h2{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100vw;
+  right: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card {
+  padding: 2em;
+}
+
+.add-todo {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add-todo-bg{
+  background-color: var(--color-cards);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 0px 0px 20px 0px;
+}
+
+.add-todo input {
+  width: 100%;
+  border-radius: 10px;
+  background: var(--color-input);
+  outline: none;
+  border: 0px;
+  padding: 1rem;
+  color: black;
+
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
