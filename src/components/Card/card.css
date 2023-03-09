@@ -2,6 +2,7 @@
     background-color: var(--color-cards);
     border-radius: 10px;
     margin-bottom: 1rem;
+    padding: 1.5rem;
 }
 
 .card{

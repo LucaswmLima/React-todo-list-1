@@ -69,7 +69,7 @@ button {
   background-color: var(--color-btn-primary);
   color: white;
   cursor: pointer;
-  min-width: 8rem;
+  width: 7.3rem;
 }
 button:hover {
   background-color: var(--color-btn-primary-hover);
