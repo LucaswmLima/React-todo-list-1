@@ -69,7 +69,7 @@ button {
   background-color: var(--color-btn-primary);
   color: white;
   cursor: pointer;
-  width: 7.3rem;
+  width: 7rem;
 }
 button:hover {
   background-color: var(--color-btn-primary-hover);
@@ -87,3 +87,28 @@ button:active{
 }
 
 
+@media only screen and (max-width: 600px) {
+  button{
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  width: 5rem;
+  }
+
+  .add-todo input{
+    font-size: 0.8rem;
+  }
+
+  h2{
+    font-size: 0.8rem;
+  }
+
+  .title-container{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+   .title-container{
+    width: 100%;
+  }
+}
